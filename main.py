@@ -5,6 +5,15 @@ from sklearn.model_selection import train_test_split
 from functions import gradient_descent
 from visuals import plot_regression_results, calculate_r2, print_theta
 
+
+data = pd.read_csv('insurance.csv')
+
+data['sex'] = data['sex'].map({'male': 1, 'female': 0})
+data['smoker'] = data['smoker'].map({'yes': 1, 'no': 0})
+
+X = data[['age', 'sex', 'bmi', 'children', 'smoker']].copy()
+Y = data['charges']
+# -----------------------------------
 with open('parameters.json', 'r') as file:
     params = json.load(file)
     alpha = params['alpha']
@@ -39,3 +48,4 @@ plot_regression_results(Y_test, y_pred)
 r2 = calculate_r2(Y_test, y_pred)
 print(f"Współczynnik R^2: {r2}")
 print_theta(theta)
+#komentarz do 9 zadania blblbabal
