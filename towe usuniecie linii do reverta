@@ -1,0 +1,17 @@
+* [33mcommit 66ef54b593f4d9378feb0278b3092596f34531c6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+[31m|[m Author: barolzy <bartek.onieszczuk2@gmail.com>
+[31m|[m Date:   Mon Apr 6 20:11:05 2026 +0200
+[31m|[m 
+[31m|[m     Zadanie 5: Refaktoryzacja kodu i przeniesienie logiki do visuals.py
+[31m|[m 
+* [33mcommit ee13268a94b701ec9f30ea435e32f724c5ce02ee[m
+[31m|[m Author: barolzy <bartek.onieszczuk2@gmail.com>
+[31m|[m Date:   Mon Apr 6 20:04:01 2026 +0200
+[31m|[m 
+[31m|[m     Zadanie 4: Dodanie modulu visuals.py.
+[31m|[m 
+* [33mcommit 4cbd05bbc268c6a99ce6d52ee834a0c737e74827[m
+  Author: barolzy <bartek.onieszczuk2@gmail.com>
+  Date:   Mon Apr 6 19:50:44 2026 +0200
+  
+      Pierwsza wersja projektu
