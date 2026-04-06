@@ -21,7 +21,7 @@ with open('parameters.json', 'r') as file:
 
 
 
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.60, random_state=42)
 
 mean_values = X_train.mean()
 std_values = X_train.std()
