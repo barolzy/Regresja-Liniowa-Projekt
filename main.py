@@ -10,12 +10,7 @@ with open('parameters.json', 'r') as file:
     alpha = params['alpha']
     num_iters = params['num_iters']
 
-data = pd.read_csv('insurance.csv')
-data['sex'] = data['sex'].map({'male': 1, 'female': 0})
-data['smoker'] = data['smoker'].map({'yes': 1, 'no': 0})
 
-X = data[['age', 'sex', 'bmi', 'children', 'smoker']].copy()
-Y = data['charges']
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
